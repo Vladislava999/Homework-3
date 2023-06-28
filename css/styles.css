@@ -1,3 +1,8 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
 .list {
   list-style: none;
 }
@@ -18,6 +23,9 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+span.ingredient {
+  color: var(--navyblue, #2e2f42);
+}
 .main-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -33,9 +41,6 @@ body {
 }
 
 /*============ Heder ============ */
-span.ingredient {
-  color: var(--navyblue, #2e2f42);
-}
 .menu-link {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
