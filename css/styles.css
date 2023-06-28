@@ -1,6 +1,22 @@
-:root {
+:roote {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  --heading-menu: #2e2f42;
+  --main-title: #2e2f42;
+  --title: #ffffff;
+  --bottom: #ffffff;
+  --text: #434455;
+  --contact: #434455;
+  --header-item: #434455;
+  --footer-text: #f4f4fd;
+  --logotipe-blu: #4d5ae5;
+  --logotipe-blac: #2e2f42;
+  --background-header: #ffffff;
+  --background-hero: #2e2f42;
+  --background: #fff;
+  --background-team: #f4f4fd;
+  --background-footer: #2e2f42;
+  --background-bottom: #4d5ae5;
 }
 
 .list {
@@ -10,12 +26,16 @@
   text-decoration: none;
 }
 body {
+  color: var(--main-title);
   font-family: 'Roboto', sans-serif;
 }
-
+button {
+  color: var(--bottom, #ffffff);
+  background: var(--background-bottom, #4d5ae5);
+}
 /*============ COMPONENTS ============ */
 .logotipe {
-  color: var(--iris, #4d5ae5);
+  color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -24,17 +44,17 @@ body {
   text-transform: uppercase;
 }
 span.ingredient {
-  color: var(--navyblue, #2e2f42);
+  color: var(--logotipe-blac, #2e2f42);
 }
 .main-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--main-title, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .desc {
-  color: var(--slate, #434455);
+  color: var(--text, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -42,7 +62,7 @@ span.ingredient {
 
 /*============ Heder ============ */
 .menu-link {
-  color: var(--navyblue, #2e2f42);
+  color: var(--heading-menu, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -55,7 +75,7 @@ span.ingredient {
   letter-spacing: 0.32px;
 }
 .contact-fhone-number {
-  color: var(--slate, #434455);
+  color: var(--contact, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -63,7 +83,7 @@ span.ingredient {
 
 /*============ Hero ============ */
 .title-hero {
-  color: var(--white, #fff);
+  color: var(--title, #fff);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -71,7 +91,6 @@ span.ingredient {
   letter-spacing: 1.12px;
 }
 .button-hero {
-  color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -87,7 +106,7 @@ span.ingredient {
 }
 /*============ Wat are we doing ============*/
 .main-title-doing {
-  color: var(--navyblue, #2e2f42);
+  color: var(--main-title, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;

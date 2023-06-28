@@ -1,6 +1,14 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  --main-title: #2e2f42;
+  --text: #434455;
+  --logotipe-blu: #4d5ae5;
+  --logotipe-blac: #2e2f42;
+  --botton: #4d5ae5;
+  --background-bottom: #f4f4fd;
+  --bottom-hover: #ffffff;
+  --background-bottom-hover: #404bbf;
 }
 
 .list {
@@ -13,19 +21,19 @@
   font-family: 'Roboto', sans-serif;
 }
 button {
-  color: var(--iris, #4d5ae5);
-  background: var(--cloud, #f4f4fd);
+  color: var(--botton, #4d5ae5);
+  background: var(--background-bottom, #f4f4fd);
 }
 button:hover {
-  color: var(--white, #fff);
-  background: var(--ocean, #404bbf);
+  color: var(--bottom-hover, #fff);
+  background: var(--background-bottom-hover, #404bbf);
 }
 /*============ COMPONENTS ============ */
 .title-none {
   display: none;
 }
 .logotipe {
-  color: var(--iris, #4d5ae5);
+  color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -34,16 +42,16 @@ button:hover {
   text-transform: uppercase;
 }
 span.ingredient {
-  color: var(--navyblue, #2e2f42);
+  color: var(--logotipe-blac, #2e2f42);
 }
 .desc {
-  color: var(--slate, #434455);
+  color: var(--text, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .main-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--main-title, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
