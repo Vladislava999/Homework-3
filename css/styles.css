@@ -25,10 +25,41 @@
 .link {
   text-decoration: none;
 }
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
 body {
   color: var(--main-title);
   font-family: 'Roboto', sans-serif;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.cotainer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 button {
   color: var(--bottom, #ffffff);
   background: var(--background-bottom, #4d5ae5);
@@ -46,12 +77,24 @@ button {
 span.ingredient {
   color: var(--logotipe-blac, #2e2f42);
 }
+.title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
 .main-title {
   color: var(--main-title, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .desc {
   color: var(--text, #434455);
@@ -61,6 +104,21 @@ span.ingredient {
 }
 
 /*============ Heder ============ */
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.logotipe {
+  margin-right: 76px;
+}
+.header-contact {
+  margin-left: auto;
+}
 .menu-link {
   color: var(--heading-menu, #2e2f42);
   font-size: 16px;
@@ -68,20 +126,34 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contact-email {
+.contact-email link {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-left: auto;
 }
-.contact-fhone-number {
+.contact-fhone-number link {
   color: var(--contact, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-left: auto;
+  margin: 40px;
 }
 
+.menu-item:not(:last-child) {
+  margin: 40px;
+}
+.contact:not(:last-child) {
+  margin: 40px;
+}
 /*============ Hero ============ */
+.hero {
+  text-align: center;
+  background-color: var(--navyblue, #2e2f42);
+  justify-content: center;
+}
 .title-hero {
   color: var(--title, #fff);
   text-align: center;
@@ -89,11 +161,18 @@ span.ingredient {
   font-weight: 700;
   line-height: 1.77;
   letter-spacing: 1.12px;
+  display: flex;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .button-hero {
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 34px;
   letter-spacing: 0.64px;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
@@ -104,7 +183,23 @@ span.ingredient {
 .title-none {
   display: none;
 }
+.text {
+  width: 264px;
+}
+.text-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*============ Wat are we doing ============*/
+.team {
+  color: var(--background);
+}
+.pages-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .main-title-doing {
   color: var(--main-title, #2e2f42);
   text-align: center;
@@ -113,4 +208,51 @@ span.ingredient {
   line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+/*============ Team ============*/
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*===flex-basis: calc((100% - 72px) / 4);===*/
+.team {
+  background-color: var(--cloud, #f4f4fd);
+}
+.main-title-team {
+  color: var(--main-title, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.card-text-team {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.team-name {
+  margin-bottom: 8px;
+}
+/*=========Footer========*/
+
+.footer {
+  background-color: var(--navyblue, #2e2f42);
+}
+
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+.footer-bloc {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }

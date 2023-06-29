@@ -28,6 +28,13 @@ button:hover {
   color: var(--bottom-hover, #fff);
   background: var(--background-bottom-hover, #404bbf);
 }
+.cotainer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*============ COMPONENTS ============ */
 .title-none {
   display: none;
@@ -64,4 +71,55 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.64px;
   border-radius: 4px;
+}
+/*========Header======*/
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.logotipe {
+  margin-right: 76px;
+}
+.header-contact {
+  margin-left: auto;
+}
+.menu-link {
+  color: var(--heading-menu, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.contact-email link {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-left: auto;
+}
+.contact-fhone-number link {
+  color: var(--contact, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-left: auto;
+  margin: 40px;
+}
+
+.menu-item:not(:last-child) {
+  margin: 40px;
+}
+.contact:not(:last-child) {
+  margin: 40px;
+}
+
+/*==========Hero========*/
+.button {
+  width: 116px;
+}
+.hero-buttom-list {
 }
