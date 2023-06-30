@@ -48,7 +48,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.cotainer {
+.container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -59,6 +59,7 @@ body {
 button {
   color: var(--bottom, #ffffff);
   background: var(--background-bottom, #4d5ae5);
+  margin-top: 48px;
 }
 /*============ COMPONENTS ============ */
 
@@ -131,12 +132,6 @@ span.ingredient {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
-    #fff;
 }
 span.ingredient-header {
   color: var(--navyblue, #2e2f42);
@@ -180,7 +175,7 @@ span.ingredient-header {
   padding-bottom: 120px;
 }
 .title-none {
-  display: none;
+  visibility: hidden;
 }
 .text {
   width: 264px;

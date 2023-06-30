@@ -31,12 +31,15 @@ body {
 button {
   color: var(--iris, #4d5ae5);
   background: var(--background-bottom, #f4f4fd);
+  border-radius: 4px;
+  border: 1px solid transparent;
 }
 button:hover {
   color: var(--bottom-hover, #fff);
   background: var(--background-bottom-hover, #404bbf);
+  border: 1px solid transparent;
 }
-.cotainer {
+.container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -45,8 +48,9 @@ button:hover {
 }
 /*============ COMPONENTS ============ */
 .title-none {
-  display: none;
+  visibility: hidden;
 }
+
 .logotipe {
   color: var(--logotipe-blu, #4d5ae5);
   font-size: 18px;
@@ -131,12 +135,6 @@ span.ingredient {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
-    #fff;
 }
 span.ingredient-header {
   color: var(--navyblue, #2e2f42);
@@ -146,7 +144,7 @@ span.ingredient-header {
   background: #fff;
   padding-top: 96px;
   padding-bottom: 72px;
-  
+  border: 1px solid #e7e9fc;
 }
 
 .button-text {
@@ -165,7 +163,7 @@ span.ingredient-header {
 .butoon-bloc {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  column-gap: 24px;
 }
 
 /*========Image========*/
@@ -182,11 +180,13 @@ span.ingredient-header {
   display: flex;
   flex-wrap: wrap;
   grid-column-gap: 34px;
-  grid-row-gap: 54px:
+  grid-row-gap: 54px;
 }
 .text {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 .desc {
   margin-bottom: 8px;
