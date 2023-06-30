@@ -47,13 +47,9 @@ body {
   color: var(--main-title);
   font-family: 'Roboto', sans-serif;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .cotainer {
-  width: 1200px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -65,29 +61,11 @@ button {
   background: var(--background-bottom, #4d5ae5);
 }
 /*============ COMPONENTS ============ */
-.logotipe {
-  color: var(--logotipe-blu, #4d5ae5);
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
+
 span.ingredient {
   color: var(--logotipe-blac, #2e2f42);
 }
-.title {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  font-size: 36px;
-  font-family: Roboto;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
+
 .main-title {
   color: var(--main-title, #2e2f42);
   font-size: 20px;
@@ -97,14 +75,18 @@ span.ingredient {
   margin-bottom: 8px;
 }
 .desc {
-  color: var(--text, #434455);
+  color: var(--slate, #434455);
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 /*============ Heder ============ */
-
+.hader-div {
+  display: flex;
+}
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -126,33 +108,46 @@ span.ingredient {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contact-email link {
+.contact-link {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-left: auto;
-}
-.contact-fhone-number link {
-  color: var(--contact, #434455);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  margin-left: auto;
-  margin: 40px;
+  font-style: normal;
 }
 
-.menu-item:not(:last-child) {
-  margin: 40px;
+.menu {
+  gap: 40px;
 }
-.contact:not(:last-child) {
-  margin: 40px;
+.contact {
+  gap: 40px;
+}
+.logotipe-header {
+  color: var(--logotipe-blu, #4d5ae5);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    #fff;
+}
+span.ingredient-header {
+  color: var(--navyblue, #2e2f42);
 }
 /*============ Hero ============ */
 .hero {
   text-align: center;
   background-color: var(--navyblue, #2e2f42);
   justify-content: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .title-hero {
   color: var(--title, #fff);
@@ -180,6 +175,10 @@ span.ingredient {
 }
 
 /*============ Info ============*/
+.info {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .title-none {
   display: none;
 }
@@ -192,6 +191,9 @@ span.ingredient {
 }
 
 /*============ Wat are we doing ============*/
+.doing {
+  padding-bottom: 120px;
+}
 .team {
   color: var(--background);
 }
@@ -208,8 +210,13 @@ span.ingredient {
   line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 /*============ Team ============*/
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .list-team {
   display: flex;
   flex-wrap: wrap;
@@ -227,6 +234,7 @@ span.ingredient {
   line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .card-text-team {
   padding-top: 32px;
@@ -236,7 +244,21 @@ span.ingredient {
   margin-bottom: 8px;
 }
 /*=========Footer========*/
-
+.logotipe {
+  color: var(--logotipe-blu, #4d5ae5);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+span.ingredient {
+  color: var(--cloud, #f4f4fd);
+}
+.logotipe {
+  margin-right: 76px;
+}
 .footer {
   background-color: var(--navyblue, #2e2f42);
 }
@@ -254,5 +276,7 @@ span.ingredient {
 .footer-bloc {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
+}
+.footer-div {
+  margin: auto;
 }
