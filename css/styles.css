@@ -91,6 +91,7 @@ span.ingredient {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
@@ -155,6 +156,7 @@ span.ingredient-header {
   width: 496px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 496px;
 }
 
 .button-hero {
@@ -167,15 +169,29 @@ span.ingredient-header {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 /*============ Info ============*/
 .info {
   padding-top: 120px;
   padding-bottom: 120px;
+  gap: 24px;
 }
-.title-none {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .text {
   width: 264px;
@@ -186,6 +202,9 @@ span.ingredient-header {
 }
 
 /*============ Wat are we doing ============*/
+.page {
+  display: flex;
+}
 .doing {
   padding-bottom: 120px;
 }
@@ -205,12 +224,13 @@ span.ingredient-header {
   line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 /*============ Team ============*/
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 .list-team {
   display: flex;
@@ -229,14 +249,18 @@ span.ingredient-header {
   line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .card-text-team {
   padding-top: 32px;
   padding-bottom: 32px;
+  text-align: center;
 }
 .team-name {
   margin-bottom: 8px;
+}
+.team-div {
+  padding: 32px 16px;
 }
 /*=========Footer========*/
 .logotipe {
@@ -253,9 +277,13 @@ span.ingredient {
 }
 .logotipe {
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer {
   background-color: var(--navyblue, #2e2f42);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-text {
@@ -264,7 +292,7 @@ span.ingredient {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  gap: 24px;
   letter-spacing: 0.32px;
   width: 264px;
 }

@@ -47,8 +47,18 @@ button:hover {
   padding-right: 15px;
 }
 /*============ COMPONENTS ============ */
-.title-none {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .logotipe {
@@ -94,6 +104,7 @@ span.ingredient {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
@@ -143,7 +154,7 @@ span.ingredient-header {
 .buttons {
   background: #fff;
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
   border: 1px solid #e7e9fc;
 }
 
@@ -163,10 +174,14 @@ span.ingredient-header {
 .butoon-bloc {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 /*========Image========*/
+.image-content {
+  display: block;
+}
+
 .image-div {
   padding-top: 72px;
   padding-bottom: 48px;
