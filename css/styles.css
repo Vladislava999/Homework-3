@@ -239,7 +239,10 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-radius: 0px 0px 4px 4px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 /*===flex-basis: calc((100% - 72px) / 4);===*/
 .team {
@@ -264,6 +267,7 @@ button {
   margin-bottom: 8px;
 }
 .team-div {
+  padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
 }
