@@ -16,6 +16,9 @@ h3,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
 .list {
   list-style: none;
   padding: 0;

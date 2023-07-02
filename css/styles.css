@@ -40,9 +40,7 @@ ol {
 img {
   display: block;
 }
-button {
-  cursor: pointer;
-}
+
 body {
   color: var(--main-title);
   font-family: 'Roboto', sans-serif;
@@ -56,11 +54,6 @@ body {
   padding-right: 15px;
 }
 
-button {
-  color: var(--bottom, #ffffff);
-  background: var(--background-bottom, #4d5ae5);
-  margin-top: 48px;
-}
 /*============ COMPONENTS ============ */
 
 span.ingredient {
@@ -158,13 +151,18 @@ span.ingredient-header {
   margin-right: auto;
   max-width: 496px;
 }
-
+button {
+  color: var(--bottom, #ffffff);
+  background: var(--background-bottom, #4d5ae5);
+  margin-top: 48px;
+  cursor: pointer;
+}
 .button-hero {
   font-size: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 32px;
-  padding-right: 34px;
+  padding-right: 32px;
   letter-spacing: 0.64px;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
@@ -202,7 +200,7 @@ span.ingredient-header {
 }
 
 /*============ Wat are we doing ============*/
-.page {
+.pages {
   display: flex;
 }
 .doing {
