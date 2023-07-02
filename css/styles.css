@@ -207,10 +207,9 @@ span.ingredient-header {
 }
 .doing {
   padding-bottom: 120px;
+  display: flex;
 }
-.team {
-  color: var(--background);
-}
+
 .pages-link {
   display: flex;
   flex-wrap: wrap;
@@ -226,16 +225,23 @@ span.ingredient-header {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.page-doing {
+  width: calc((100% - 48px) / 3);
+}
 /*============ Team ============*/
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
+  color: var(--background);
+  gap: 24px;
 }
+
 .list-team {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-radius: 0px 0px 4px 4px;
 }
 /*===flex-basis: calc((100% - 72px) / 4);===*/
 .team {
@@ -260,7 +266,8 @@ span.ingredient-header {
   margin-bottom: 8px;
 }
 .team-div {
-  padding: 32px 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 /*=========Footer========*/
 .logotipe {

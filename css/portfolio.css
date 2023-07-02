@@ -32,12 +32,14 @@ button {
   color: var(--iris, #4d5ae5);
   background: var(--background-bottom, #f4f4fd);
   border-radius: 4px;
-  border: 1px solid transparent;
+  border: 1px;
+  border: solid #e7e9fc;
 }
 button:hover {
   color: var(--bottom-hover, #fff);
   background: var(--background-bottom-hover, #404bbf);
-  border: 1px solid transparent;
+  border: 1px;
+  border: solid transparent;
 }
 .container {
   width: 1158px;
@@ -73,30 +75,7 @@ button:hover {
 span.ingredient {
   color: var(--logotipe-blac, #2e2f42);
 }
-.desc {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-.main-title {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
 
-.button-hero {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  border-radius: 4px;
-}
 /*========Header======*/
 .hader-div {
   display: flex;
@@ -155,7 +134,6 @@ span.ingredient-header {
   background: #fff;
   padding-top: 96px;
   padding-bottom: 120px;
-  border: 1px solid #e7e9fc;
 }
 
 .button-text {
@@ -175,27 +153,20 @@ span.ingredient-header {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 /*========Image========*/
-.image-content {
-  display: block;
-}
 
 .image-div {
   padding-top: 72px;
   padding-bottom: 48px;
 }
-
-.img {
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .image-list {
   display: flex;
   flex-wrap: wrap;
-  grid-column-gap: 34px;
-  grid-row-gap: 54px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .text {
   padding-top: 32px;
@@ -203,11 +174,23 @@ span.ingredient-header {
   padding-right: 16px;
   padding-left: 16px;
 }
+
 .desc {
-  margin-bottom: 8px;
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
-.butoon-bloc {
-  margin-bottom: 72px;
+.main-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 /*=========Footer========*/
 
