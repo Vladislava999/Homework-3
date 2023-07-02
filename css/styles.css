@@ -230,11 +230,15 @@ button {
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
-  border-radius: 0px 0px 4px 4px;
   color: var(--background);
   gap: 24px;
 }
-
+.team-card {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
 .list-team {
   display: flex;
   flex-wrap: wrap;
