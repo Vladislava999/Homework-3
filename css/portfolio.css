@@ -157,7 +157,9 @@ span.ingredient-header {
 }
 
 /*========Image========*/
-
+.image-content {
+  display: block;
+}
 .image-div {
   padding-top: 72px;
   padding-bottom: 48px;

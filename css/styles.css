@@ -87,8 +87,6 @@ span.ingredient {
 /*============ Heder ============ */
 .hader-div {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .page-header {
   padding-top: 24px;
