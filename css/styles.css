@@ -170,7 +170,6 @@ button {
   min-width: 169px;
   height: 56px;
   border: none;
-  display: block;
 }
 
 /*============ Info ============*/
@@ -213,7 +212,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .main-title-doing {
   color: var(--main-title, #2e2f42);
@@ -240,7 +238,6 @@ button {
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  gap: 24px;
 }
 .list-team {
   display: flex;
@@ -257,7 +254,6 @@ button {
 }
 .team-card {
   background-color: #ffffff;
-  gap: 24px;
 }
 .main-title-team {
   color: var(--main-title, #2e2f42);
@@ -270,7 +266,8 @@ button {
   margin-bottom: 72px;
 }
 .card-text-team {
-  padding: 32px 16px 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-align: center;
 }
 .team-name {
