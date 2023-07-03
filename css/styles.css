@@ -252,6 +252,9 @@ button {
 .team {
   background-color: var(--cloud, #f4f4fd);
 }
+.team-card {
+  background-color: #ffffff;
+}
 .main-title-team {
   color: var(--main-title, #2e2f42);
   text-align: center;
