@@ -264,6 +264,7 @@ button {
 }
 .team-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .main-title-team {
   color: var(--main-title, #2e2f42);
@@ -284,9 +285,7 @@ button {
   margin-bottom: 8px;
 }
 .team-div {
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 16px;
 }
 /*=========Footer========*/
 .logotipe {
