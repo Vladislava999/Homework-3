@@ -181,7 +181,6 @@ button {
 .info {
   padding-top: 120px;
   padding-bottom: 120px;
-  gap: 24px;
 }
 .visually-hidden {
   position: absolute;
@@ -204,6 +203,7 @@ button {
 .text-info {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 /*============ Wat are we doing ============*/
