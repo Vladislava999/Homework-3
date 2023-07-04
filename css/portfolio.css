@@ -38,12 +38,7 @@ button {
   border: 1px;
   border: solid #e7e9fc;
 }
-button:hover {
-  color: var(--bottom-hover, #fff);
-  background: var(--background-bottom-hover, #404bbf);
-  border: 1px;
-  border: solid transparent;
-}
+
 .container {
   width: 1158px;
   margin-left: auto;
@@ -141,8 +136,16 @@ span.ingredient-header {
   background: #fff;
   padding-top: 96px;
   padding-bottom: 120px;
+  border: 1px solid #e7e9fc;
 }
-
+button:hover {
+  color: var(--bottom-hover, #fff);
+  background: var(--background-bottom-hover, #404bbf);
+  border: 1px solid transparent;
+}
+button :focus {
+  border: 1px solid transparent;
+}
 .button-text {
   padding-top: 12px;
   padding-bottom: 12px;
