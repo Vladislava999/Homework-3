@@ -157,7 +157,9 @@ button:focus {
 }
 
 /*========Image========*/
-
+.image-content {
+  display: block;
+}
 .desc {
   color: var(--slate, #434455);
   font-size: 16px;

@@ -198,7 +198,9 @@ button {
 }
 .text {
   width: 264px;
+  gap: 24px;
 }
+
 .text-info {
   display: flex;
   justify-content: space-between;
@@ -217,7 +219,9 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-right: 24px;
+}
+.pages-link {
+  gap: 24px;
 }
 .main-title-doing {
   color: var(--main-title, #2e2f42);
