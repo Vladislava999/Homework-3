@@ -138,7 +138,7 @@ span.ingredient-header {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.button-text {
+.button-text: {
   border: 1px solid #e7e9fc;
 }
 .button-text: hover {
