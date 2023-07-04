@@ -220,7 +220,7 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.pages-link {
+.pages {
   gap: 24px;
 }
 .main-title-doing {
@@ -241,7 +241,6 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
   color: var(--background);
-  gap: 24px;
 }
 .team-card {
   border-top-left-radius: 0px;
@@ -257,6 +256,7 @@ button {
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
+  gap: 24px;
 }
 /*===flex-basis: calc((100% - 72px) / 4);===*/
 .team {
