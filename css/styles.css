@@ -27,7 +27,7 @@
 }
 h1,
 h2,
-h3 {
+h3 p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -80,6 +80,7 @@ span.ingredient {
 /*============ Heder ============ */
 .hader-div {
   display: flex;
+  align-items: center;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -102,6 +103,7 @@ span.ingredient {
   letter-spacing: 0.32px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .contact-link {
@@ -147,7 +149,7 @@ span.ingredient-header {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.77;
+  line-height: 1.1;
   letter-spacing: 1.12px;
   display: flex;
   width: 496px;
@@ -323,10 +325,7 @@ span.ingredient {
   letter-spacing: 0.32px;
   width: 264px;
 }
-.footer-bloc {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+
 .footer-div {
   margin: auto;
 }
