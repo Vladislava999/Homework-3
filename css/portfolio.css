@@ -137,7 +137,7 @@ span.ingredient-header {
   background: #fff;
   padding-top: 96px;
   padding-bottom: 120px;
-  border: 1px solid var(--buttom-solit, #e7e9fc);
+  border: 1px solid #e7e9fc;
 }
 button:hover {
   color: var(--bottom-hover, #fff);
