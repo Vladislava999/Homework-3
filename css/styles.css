@@ -156,6 +156,7 @@ button {
   background: var(--background-bottom, #4d5ae5);
   margin-top: 48px;
   cursor: pointer;
+  display: block;
 }
 .button-hero {
   font-size: 16px;
