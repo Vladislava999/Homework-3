@@ -141,12 +141,12 @@ span.ingredient-header {
 .button-text {
   border: 1px solid #e7e9fc;
 }
-button:hover {
+.button-text: hover {
   color: var(--bottom-hover, #fff);
   background: var(--background-bottom-hover, #404bbf);
   border: 1px solid transparent;
 }
-button :focus {
+button-text :focus {
   border: 1px solid transparent;
 }
 .button-text {
